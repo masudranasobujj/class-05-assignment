@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/******** header start *******/
+
+header{
+    border-bottom: 1px solid black;
+    padding: 25px 0px;
+}
+.container{
+    width: calc( 100% - 400px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header .container{}
+/*****logo start ******/
+header .container .logo{
+    flex: 0 0 auto;
+    width: 20%;
+}
+header .container .logo a{
+    text-decoration: none;
+}
+header .container .logo a h1{
+    color: #165993;
+    font-size: 25px;
+}
+/*****logo end ******/
+
+/*****nav start******/
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+}
+ul li a{text-decoration: none;}
+header .container nav{
+    flex: 0 0 auto;
+    width: 80%;
+}
+header .container nav ul{
+    justify-content: flex-end;
+}
+header .container nav ul li{}
+header .container nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+header .container nav ul li:last-child a{
+	background: #bce0ff;
+}
+header .container nav ul li a:hover{
+	background: #bce0ff;
+}
+
+/*****nav start******/
+/******** header end ********/
+
+/******banner section start*******/
+.banner-section{}
+.banner-section .container{
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.banner-section .container h5{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    line-height: 22px;
+    color: #00000082;
+}
+.banner-section .container h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000bd;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 35px;
+}
+.banner-section .container span{}
+
+/******banner section end*********/
+
+/****** portfolio section start *******/
+.portfolio-section{
+    margin-top: 60px;
+}
+.portfolio-section .container{}
+.portfolio-section .container .col-3-1{
+    flex: 0 0 auto;
+    width: 33.33%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.portfolio-section .container .col-3-1 .box{
+    padding: 15px;
+    /* background: blue; */
+    border: 1px solid;
+    border-radius: 10px;
+}
+.portfolio-section .container .col-3-1 .box img{
+    width: 100%;
+}
+.portfolio-section .container .col-3-1 .box h1{
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+/****** portfolio section end *******/
+
+/***** footer section start *******/
+footer{
+    background: #bce0ff;
+    padding: 30px 0px;
+}
+footer .container{}
+footer .container .col-2-1{
+    flex: 0 0 auto;
+    width: 50%;
+}
+footer .container .col-2-1 .footer-menu{}
+footer .container .col-2-1 .footer-menu li{}
+footer .container .col-2-1 .footer-menu li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding-right: 10px;
+    color: #000;
+    transition-duration: 0.3s;
+}
+footer .container .col-2-1 .footer-menu li a:hover{
+	color: #000000b3;
+}
+footer .container .col-2-1 .social-link{
+    justify-content: flex-end;
+    align-items: center;
+}
+footer .container .col-2-1 .social-link li{}
+footer .container .col-2-1 .social-link li span{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+footer .container .col-2-1 .social-link li a{
+    font-size: 22px;
+    color: #000;
+    padding-left: 10px;
+    transition-duration: 0.3s;
+}
+footer .container .col-2-1 .social-link li a:hover{
+	
+color: #0009;
+}
+/***** footer section end *******/
+
+
